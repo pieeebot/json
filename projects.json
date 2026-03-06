@@ -1,0 +1,24 @@
+{
+  "repos": [
+    {
+      "name": "smartcmd / MinecraftConsoles",
+      "url": "https://github.com/smartcmd/MinecraftConsoles",
+      "priority": 1
+    },
+    {
+      "name": "Archive Source Code Dump",
+      "url": "https://archive.org/download/minecraft-legacy-console-edition-source-code",
+      "priority": 2
+    },
+    {
+      "name": "gradenGnostic / Legacy Launcher",
+      "url": "https://github.com/gradenGnostic/LegacyLauncher",
+      "priority": 3
+    },
+    {
+      "name": "4jcraft / 4jcraft",
+      "url": "https://github.com/4jcraft/4jcraft",
+      "priority": 4
+    }
+  ]
+}

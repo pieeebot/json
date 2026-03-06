@@ -1,0 +1,53 @@
+name: Project Request
+description: Request a new project to be added to the Minecraft Legacy index
+title: "[Request] "
+labels: ["project-request"]
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: The display name for the project (e.g. "owner / RepoName")
+      placeholder: "smartcmd / MinecraftConsoles"
+    validations:
+      required: true
+
+  - type: input
+    id: project-url
+    attributes:
+      label: Project URL
+      description: Full link to the project (GitHub, Archive.org, website, etc.)
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Suggested Priority
+      description: How important is this project to the Legacy community?
+      options:
+        - "High (core tools, sources)"
+        - "Medium (useful projects)"
+        - "Low (archives, misc)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Why should this be listed?
+      description: Brief explanation of what the project is and why it belongs on the index.
+      placeholder: "This project is a decompiled source mirror of..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This project is related to Minecraft Legacy / Console Edition
+          required: true
+        - label: This project is not already listed in projects.json
+          required: true
