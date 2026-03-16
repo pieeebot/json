@@ -28,8 +28,8 @@
       "mirror": "https://git.minecraftlegacy.com/backups/LCEMP"
     },
     {
-      "name": "LegacyEvolved",
-      "url": "https://openlce.org",
+      "name": "piebot / LegacyEvolved",
+      "url": "https://github.com/piebotc/LegacyEvolved",
       "priority": 5,
       "tag": "game"
     }
